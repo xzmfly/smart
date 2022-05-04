@@ -109,32 +109,16 @@ nav ul {
 			top:20%;
 			left:40%;
 		}
-	.submenu:nth-child(4){
-	/* margin-left:280px; */
-	position: absolute;
-	top: 15%;
-	left: 0%;
-	}
-	
-	nav input[type="checkbox"]:checked~ul{
-		display: block;
-		position: absolute;
-		top:10px;
-		left: 10%;
-		background-color: rgba(62,163,215,0.5);
-		text-align: center;
-	}
-		.menu{
-			display: block;
-			cursor: pointer;
-		}
-		nav>ul{
-			display: none;
-			height: 288px;
-		}
-		nav>ul>li{
-			display: block;
-		}
+	.submenu:nth-child(3){
+		 	margin-left:70px;}
+		 	.submenu:nth-child(4){
+		 	margin-left:280px;}
+		 	.submenu:nth-child(5){
+		 	margin-left:480px;}
+		 	.submenu:nth-child(6){
+		 	margin-left:680px;}
+		 	.submenu:nth-child(7){
+		 	margin-left:780px;}
 		
 	}
 	@media (max-device-width:1024px){
@@ -144,7 +128,17 @@ nav ul {
 			top:20%;
 			left:30%;
 		}
-	
+		.submenu:nth-child(3){
+		margin-left:70px;}
+		.submenu:nth-child(4){
+		margin-left:280px;}
+		.submenu:nth-child(5){
+		margin-left:400px;}
+		.submenu:nth-child(6){
+		margin-left:600px;}
+		.submenu:nth-child(7){
+		margin-left:50px;}
+		
 	}
 	@media (max-device-width:768px){
 		.bt{
@@ -152,6 +146,33 @@ nav ul {
 			top:20%;
 			left:15%;
 		}
+		
+		.submenu:nth-child(4){
+		/* margin-left:280px; */
+		position: absolute;
+		top: 15%;
+		left: 0%;
+		}
+		
+		nav input[type="checkbox"]:checked~ul{
+			display: block;
+			position: absolute;
+			top:10px;
+			left: 10%;
+			background-color: rgba(62,163,215,0.5);
+			text-align: center;
+		}
+			.menu{
+				display: block;
+				cursor: pointer;
+			}
+			nav>ul{
+				display: none;
+				height: 288px;
+			}
+			nav>ul>li{
+				display: block;
+			}
 	}
 	
 	@media (max-device-width:640px) {
@@ -472,4 +493,6 @@ nav ul {
 				height: 70px;
 			
 		}}
+	
+		
 		
